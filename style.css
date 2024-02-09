@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+#navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  padding: 0.5rem 5rem;
+  box-shadow: 3px 3px 15px gray;
+  background: orange;
+}
+.navbar .navbar-brand {
+  font-size: 25px;
+  font-weight: 800;
+  color: black;
+}
+
+#navbarSupportedContent :hover {
+  border-block: 2px solid black;
+}
+#navbarSupportedContent button {
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+}
+section {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchbar {
+  display: flex;
+  flex-direction: row;
+}
+.searchplace {
+  width: 150px !important;
+}
+.search {
+  width: 80px !important;
+}
+#home {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url(./assect/portrait-beautiful-young-woman-embracing-her-boyfriend-from.jpg);
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+}
+
+#small h1,
+#home h1 {
+  font-size: 50px;
+  color: black;
+  letter-spacing: 3px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#small h1 span,
+#home h1 span {
+  color: orange;
+  text-shadow: 0px 1px 0px black;
+  text-shadow: 0px 2px 0px black;
+  text-shadow: 0px 3px 0px black;
+  text-shadow: 0px 4px 0px black;
+  text-shadow: 0px 5px 0px black;
+}
+#small p,
+#home p {
+  color: white;
+  font-weight: 500;
+  font-size: 30px;
+  text-shadow: 2px 2px 4px black;
+}
+
+/**product item,,TODAY DEALS***/
+
+#icon,
+#icon1 {
+  background: white !important;
+}
+#icon3 img,
+#icon4 img,
+#icon5 img,
+#icon6 img,
+#icon7 img,
+#icon2 img,
+#icon1 img {
+  width: 250px;
+  height: 200px;
+}
+#icon7 .card,
+#icon6 .card,
+#icon5 .card,
+#icon4 .card,
+#icon3 .card,
+#icon2 .card,
+#icon1 .card,
+#icon .card {
+  width: 200px;
+  height: 300px;
+  border: none !important;
+  border-radius: 20px !important;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 40px;
+}
+
+/****about us****/
+
+#icon2 h1,
+#icon4 h1,
+#icon6 h1,
+#icon h1,
+#about h1,
+#contact h1 {
+  font-size: 30px;
+  font-weight: 800;
+  color: orange;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 2px black;
+}
+#item h1,
+#icon1 h1,
+#icon3 h1,
+#icon5 h1,
+#icon7 h1 {
+  font-size: 30px;
+  font-weight: 800;
+  color: black;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 2px orange;
+}
+#about p {
+  color: black;
+}
+/**product*/
+#item,
+#icon1,
+#icon3,
+#icon5,
+#icon7 {
+  background: #e5e5e5 !important;
+}
+
+#icon img {
+  width: 200px;
+  height: 200px;
+}
+#item img {
+  width: 300px;
+  height: 210px;
+}
+#item .card {
+  width: 300px;
+  height: 350px;
+  border: none !important;
+  border-radius: 20px !important;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 40px;
+}
+
+.card:hover {
+  box-shadow: 2px 6px 20px 0 rgba(0, 0, 0, 0.19),
+    2px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.signin {
+  background: orange !important;
+  color: white;
+  box-shadow: 2px 2px 5px black;
+}
+.signin:hover {
+  color: white !important;
+  background: black !important;
+}
+
+/* contact*/
+
+#contact img {
+  height: 100%;
+}
+.box {
+  width: 70% !important;
+  margin-top: 10px !important;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+#contact text {
+  margin: 10px 0px;
+}
+#contact textarea {
+  margin: 10px 0px;
+}
+
+/**
+kids (small)**/
+#small {
+  background: #39a7ff;
+  flex-direction: column;
+}
+#small {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
